@@ -3,6 +3,7 @@ import PWABadge from './PWABadge';
 import Footer from "./components/Footer";
 import './App.css'
 import UnitConverter from "./components/UnitConverter";
+import imagen  from './assets/images.jpg'
 
 function App() {
 
@@ -12,7 +13,10 @@ function App() {
 
       <div id="structurePage">
         <header>
-          <h1 className="text-center mt-4">Conversor de Kilometros-Metros</h1>
+          <h1 className="text-center mt-4">
+            <img src={imagen} alt="Logo" width="100px" height="50px" />
+            Conversor de Kilometros-Metros
+          </h1>
         </header>
 
         <main className="container mt-4">
